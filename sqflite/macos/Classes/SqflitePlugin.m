@@ -1,12 +1,6 @@
 #import "SqflitePlugin.h"
 
-// Include files differs on ios and MacOS
-#if TARGET_OS_IPHONE
 #import <fmdb/FMDB.h>
-#else
-#import <FMDB/FMDB.h>
-#endif
-
 #import <sqlite3.h>
 #import "SqfliteOperation.h"
 
